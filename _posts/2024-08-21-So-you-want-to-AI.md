@@ -19,6 +19,6 @@ So what is the punchline? Be objective and don't let hype influence your decisio
 
 Disclaimers: 
 - Deep learning is a great tool if you understand the implications of the universal approximation theorems (more on that in the future).
-- Being able to use tensorflow and pytorch are crucial programming skills. But that doesn't mean you have to (or need to) do research in AI or machine learning.
+- Being able to use tensorflow and pytorch are crucial programming skills. But that doesn't mean you have to (or need to) do research in AI or machine learning. There are many other important/useful fields in computer science in which research is a rewarding experience.
 - I use copilot frequently to summarize answers to a question that can be found on the web. I don't trust the answer but it is a good starting point for digging deeper into a question.
 - I was hoping to use copilot/dall-e to generate pictures I could use in slides, but the amount of prompting needed takes so much time, that it is better spent in following online drawing tutorials to build skills and then drawing images myself.
