@@ -11,7 +11,7 @@ I saw an interaction on reddit where someone asked chatgpt to count the number o
 ![Convincing Copilot it was wrong](https://dkifer.github.io/blog/docs/assets/images/r2.jpg)
 ![Checking copilot with raspberry and raspberries](https://dkifer.github.io/blog/docs/assets/images/r3.jpg)
 
-But maybe AI can help generate images for a class I am teaching?
+**But maybe AI can help generate images for a class I am teaching?**
 
 ![Asking copilot to generate an image without people. There were lots of people in the images anyway.](https://dkifer.github.io/blog/docs/assets/images/aiimage.jpg)
 
