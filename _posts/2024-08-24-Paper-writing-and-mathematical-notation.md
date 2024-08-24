@@ -5,7 +5,7 @@ date: 2024-08-24
 
 Paper writing is one of the most important skills for graduate students. You need to convey all of the important ideas to readers and reviewers who, more likely than not, don't have much time. Mathematical notation is one of the most important ways of getting your ideas across precisely, but if you don't plan it carefully, you run the risk of violating the Geneva Convention. These are some tips to minimize the suffering of the readers.
 
-### When possible, use LaTeX instead of Word.
+## When possible, use LaTeX instead of Word.
 
 LaTeX is a type-setting system that is particularly useful for papers that include math. It has a learning curve but in my experience it is superior to Word documents.
 - It is much easier to write math equations using LaTeX.
@@ -14,7 +14,7 @@ LaTeX is a type-setting system that is particularly useful for papers that inclu
 
   My preference (and that of many academics) is to use [Overleaf](https://www.overleaf.com/), an online LaTeX editor that allows you to collaborate with multiple people and no additional software is required beyond a web browser.
 
-### A table of notation.
+## A table of notation.
 
 Papers introduce notation all over the place. It is very easy to forget what a symbol means, and when you do, it very difficult to go back to find where the symbols was defined. Many times, when I review papers, I dream of quitting and taking up easier jobs, like searching for needles in haystacks. You, as a writer, can help the readers out by creating a table of notation and either putting it in the main paper or in the supplementary material. An example of LaTeX code:
 ```
@@ -36,8 +36,8 @@ and then the reader gets a handy reference like this:
 ![Screenshot of a table of notation produced by LaTeX code](https://dkifer.github.io/blog/docs/assets/images/tableofnotation.png)
 
 
-### Useful strategies in LaTeX.
+## Useful strategies in LaTeX.
 
-### Reminders.
+## Reminders.
 
 ### Tips for slides and presentations.
