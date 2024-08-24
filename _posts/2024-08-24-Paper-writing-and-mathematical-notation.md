@@ -38,6 +38,10 @@ and then the reader gets a handy reference like this:
 
 ## Useful strategies in LaTeX.
 
+As you write your paper, you may realize that suddenly you need to change your notation. For example, suppose you used $\alpha$ for an important algorithm parameter, but then you realize that you also need to discuss hypothesis testing, where $\alpha$ is commonly used to denote a significance level. Now you need to go back and change your $\alpha$ to some other symbol. If your notation is more complicated, or hard to search for (like you used the letter c, but then realized you also need to discuss the speed of light, which is also denoted by c), this becomes a nightmare. 
+
+A similar problem happens when you need to change your terminology. For example, your paper may be proposing a new system that was tentatively named ALLY (**A** Rea**L**ly Coo**L** S**Y**stem) but then you realize that such acronyms are word crimes, and want to rename it to Waldo. You could either search and replace everywhere, or you could do the following.
+
 ## Reminders.
 
 ### Tips for slides and presentations.
