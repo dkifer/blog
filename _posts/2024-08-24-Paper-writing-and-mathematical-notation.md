@@ -16,6 +16,23 @@ LaTeX is a type-setting system that is particularly useful for papers that inclu
 
 ### A table of notation.
 
+Papers introduce notation all over the place. It is very easy to forget what a symbol means, and when you do, it very difficult to go back to find where the symbols was defined. Many times, when I review papers, I dream of quitting and taking up easier jobs, like searching for needles in haystacks. You, as a writer, can help the readers out by creating a table of notation and either putting it in the main paper or in the supplementary material. An example of LaTeX code:
+```
+\begin{table}[h]
+\begin{center}
+\caption{Table of Notation}\label{tab:notation}
+\begin{tabular}{|cp{0.73\linewidth}|}\hline
+$N$: & Population size\\
+$n$: & Sample size\\
+$\mathbf{W}_i$: & Parameters for Neural Network layer i\\
+$K$: & A compact subset of a metric space\\
+$\mathcal{A}$: & A randomized algorithm.\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+```
+
 ### Useful strategies in LaTeX.
 
 ### Reminders.
