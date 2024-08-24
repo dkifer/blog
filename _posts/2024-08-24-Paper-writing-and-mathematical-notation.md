@@ -32,6 +32,9 @@ $\mathcal{A}$: & A randomized algorithm.\\
 \end{center}
 \end{table}
 ```
+and then the reader gets a handy reference like this:
+![Screenshot of a table of notation produced by LaTeX code](https://dkifer.github.io/blog/docs/assets/images/tableofnotation.png)
+
 
 ### Useful strategies in LaTeX.
 
