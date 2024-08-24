@@ -44,4 +44,4 @@ A similar problem happens when you need to change your terminology. For example,
 
 ## Reminders.
 
-### Tips for slides and presentations.
+## Tips for slides and presentations.
