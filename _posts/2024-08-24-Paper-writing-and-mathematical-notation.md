@@ -43,23 +43,8 @@ As you write your paper, you may realize that suddenly you need to change your n
 A similar problem happens when you need to change your terminology. For example, your paper may be proposing a new system that was tentatively named ALLY (**A** Rea**L**ly Coo**L** S**Y**stem) but then you realize that such acronyms are word crimes, and want to rename it to Waldo. You could either search and replace everywhere, or you could do the following.
 
 In the pre-amble of the LaTex document (usually I put it into a separate file):
-<!--
-```
-\usepackage{xspace}
-\def\notationcolor{blue}
-\newcommand{\notation}[2]{\newcommand{#1}{{\textcolor{\notationcolor}{\ensuremath{#2}}}}}
-\newcommand{\term}[2]{\newcommand{#1}{\textcolor{\notationcolor}{#2}\xspace}}
-```
-Then to define a new piece of notation, add code like this to the preamble (make sure to add comments in the LaTeX so that you don't forget the notation!):
-```
-\notation{\popsize}{N} % population size
-\notation{\nnparam}{\mathbf{W}} % neural network parameters
-```
-and to define a term (like system name):
-```
-\term{sysname}{Waldo}
-```
--->
+
+
 The benefit of using these macros, is that if you want to change your notation or terminology, there is just one place you need to make the change. 
 
 These macros make your notation blue, so that you can easily spot parts of your paper where you forgot to use the macros. Before submitting the paper, you can change the color from blue to black.
