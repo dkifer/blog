@@ -44,9 +44,11 @@ A similar problem happens when you need to change your terminology. For example,
 
 In the pre-amble of the LaTex document (usually I put it into a separate file):
 ```
+{% raw %}
 \usepackage{xspace}
 \def\notationcolor{blue}
-\newcommand{\notation}[2]{\newcommand{#1}{ {\textcolor
+\newcommand{\notation}[2]{\newcommand{#1}{{\textcolor
+{% end raw %}
 ```
 Then to define a new piece of notation, add code like this to the preamble (make sure to add comments in the LaTeX so that you don't forget the notation!):
 ```
