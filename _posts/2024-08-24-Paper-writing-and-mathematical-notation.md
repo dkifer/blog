@@ -76,6 +76,6 @@ especially when your notation involves lots of superscripts, subscripts, and oth
 
 ## Tips for slides and presentations.
 
-When you are giving presentations, notation is even a bigger problem. The audience is **more likely** to forget the notation because someone keeps talking while they try to remember it. The audience also has no ability to flip back to a table of notation, and if they blink, they might not even see some of it.
+When you are giving presentations, notation is an even bigger problem. The audience is **more likely** to forget the notation because someone keeps talking while they try to remember it. The audience also has no ability to flip back to a table of notation, and if they blink, they might not even see some of it.
 
 So, whenever possible, use pictures and small examples instead of notation. You can, of course, have a slide that with notation and a theorem to prove that your results generalize beyond the small example, but the main focus of your presentation is the small example.
