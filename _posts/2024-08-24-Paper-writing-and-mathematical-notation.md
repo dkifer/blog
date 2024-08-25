@@ -49,7 +49,7 @@ In the pre-amble of the LaTex document (usually I put it into a separate file):
 \newcommand{\notation}[2]{\newcommand{#1}{{\textcolor{\notationcolor}{\ensuremath{#2}}}}}
 \newcommand{\term}[2]{\newcommand{#1}{\textcolor{\notationcolor}{#2}\xspace}}
 ```
-Then to define a new piece of notation (make sure to add comments in the LaTeX so that you don't forget the notation!):
+Then to define a new piece of notation, add code like this to the preamble (make sure to add comments in the LaTeX so that you don't forget the notation!):
 ```
 \notation{\popsize}{N} % population size
 \notation{\nnparam}{\mathbf{W}} % neural network parameters
@@ -64,4 +64,18 @@ These macros make your notation blue, so that you can easily spot parts of your 
 
 ## Reminders.
 
+Even with a table of notation, it is not convenient to keep flipping back to it. So, another good practice is to add reminders whenever you use the symbols. For example:
+
+*As we can see from Equation 342, as the second largest eigenvalue of the network parameter matrix $\nnparam$ goes to 1 and population size $\popsize$ goes to infinity, ...*
+
+is so much more readable than:
+
+*As we can see from Equation 342, as the second largest eigenvalue of $\nnparam$ goes to 1 and $\popsize$ goes to infinity, ...*
+
+especially when your notation involves lots of superscripts, subscripts, and other decorations.
+
 ## Tips for slides and presentations.
+
+When you are giving presentations, notation is even a bigger problem. The audience is **more likely** to forget the notation because someone keeps talking while they try to remember it. The audience also has no ability to flip back to a table of notation, and if they blink, they might not even see some of it.
+
+So, whenever possible, use pictures and small examples instead of notation. You can, of course, have a slide that with notation and a theorem to prove that your results generalize beyond the small example, but the main focus of your presentation is the small example.
