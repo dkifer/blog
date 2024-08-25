@@ -47,7 +47,8 @@ In the pre-amble of the LaTex document (usually I put it into a separate file):
 {% raw %}
 \usepackage{xspace}
 \def\notationcolor{blue}
-\newcommand{\notation}[2]{\newcommand{#1}{{\textcolor
+\newcommand{\notation}[2]{\newcommand{#1}{{\textcolor{\notationcolor}{\ensuremath{#2}}}}}
+\newcommand{\term}[2]{\newcommand{#1}{\textcolor{\notationcolor}{#2}\xspace}}
 {% endraw %}
 ```
 Then to define a new piece of notation, add code like this to the preamble (make sure to add comments in the LaTeX so that you don't forget the notation!):
