@@ -44,6 +44,11 @@ A similar problem happens when you need to change your terminology. For example,
 
 In the pre-amble of the LaTex document (usually I put it into a separate file):
 
+Then to define a new piece of notation, add code like this to the preamble (make sure to add comments in the LaTeX so that you don't forget the notation!):
+```
+\notation{\popsize}{N} % population size
+\notation{\nnparam}{\mathbf{W}} % neural network parameters
+```
 and to define a term (like system name):
 ```
 \term{sysname}{Waldo}
