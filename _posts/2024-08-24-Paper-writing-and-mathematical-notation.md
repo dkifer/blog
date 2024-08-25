@@ -44,6 +44,10 @@ A similar problem happens when you need to change your terminology. For example,
 
 In the pre-amble of the LaTex document (usually I put it into a separate file):
 
+and to define a term (like system name):
+```
+\term{sysname}{Waldo}
+```
 
 The benefit of using these macros, is that if you want to change your notation or terminology, there is just one place you need to make the change. 
 
