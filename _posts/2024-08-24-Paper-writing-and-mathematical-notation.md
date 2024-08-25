@@ -67,7 +67,7 @@ In this paper, we introduce a system called \sysname that improves the lives of 
 ```
 and it will look like:
 
-![Notation usage example](https://dkifer.github.io/blog/docs/assets/images/notationexample.png)
+> ![Notation usage example](https://dkifer.github.io/blog/docs/assets/images/notationexample.png)
 
 The benefit of using these macros, is that if you want to change your notation or terminology, there is just one place you need to make the change. 
 
