@@ -43,7 +43,10 @@ As you write your paper, you may realize that suddenly you need to change your n
 A similar problem happens when you need to change your terminology. For example, your paper may be proposing a new system that was tentatively named ALLY (**A** Rea**L**ly Coo**L** S**Y**stem) but then you realize that such acronyms are word crimes, and want to rename it to Waldo. You could either search and replace everywhere, or you could do the following.
 
 In the pre-amble of the LaTex document (usually I put it into a separate file):
-
+```
+\usepackage{xspace}
+\def\notationcolor{blue}
+```
 Then to define a new piece of notation, add code like this to the preamble (make sure to add comments in the LaTeX so that you don't forget the notation!):
 ```
 \notation{\popsize}{N} % population size
