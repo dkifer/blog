@@ -46,6 +46,7 @@ In the pre-amble of the LaTex document (usually I put it into a separate file):
 ```
 {% raw %}
 \usepackage{xspace}
+\usepackage{color}
 \def\notationcolor{blue}
 \newcommand{\notation}[2]{\newcommand{#1}{{\textcolor{\notationcolor}{\ensuremath{#2}}}}}
 \newcommand{\term}[2]{\newcommand{#1}{\textcolor{\notationcolor}{#2}\xspace}}
@@ -58,7 +59,11 @@ Then to define a new piece of notation, add code like this to the preamble (make
 ```
 and to define a term (like system name):
 ```
-\term{sysname}{Waldo}
+\term{\sysname}{Waldo}
+```
+You use them in the main body of your document like this:
+```
+In this paper, we introduce a system called \sysname that improves the lives of $\popsize$ people every day.
 ```
 
 The benefit of using these macros, is that if you want to change your notation or terminology, there is just one place you need to make the change. 
