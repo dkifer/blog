@@ -44,6 +44,7 @@ A similar problem happens when you need to change your terminology. For example,
 
 In the pre-amble of the LaTex document (usually I put it into a separate file):
 ```
+\newcommand{\notation}[2]
 \usepackage{xspace}
 \def\notationcolor{blue}
 ```
