@@ -68,7 +68,9 @@ When you are giving presentations, notation is an even bigger problem. The audie
 So, whenever possible, use pictures and small examples instead of notation. You can, of course, have a slide that with notation and a theorem to prove that your results generalize beyond the small example, but the main focus of your presentation is the small example.
 
 Here are some examples of these points. The first is a picture I used to discuss data swapping. Even though it is a crude drawing it is better than introducing variables for geographic locations, household records, etc.
-![Amateurish illustration of data swapping](https://dkifer.github.io/blog/docs/assets/images/swapping.png | height=400)
+
+<!-- ![Amateurish illustration of data swapping](https://dkifer.github.io/blog/docs/assets/images/swapping.png) -->
+<img src="https://dkifer.github.io/blog/docs/assets/images/swapping.png" height="400"/>
 
 This next example is from a JSM talk by [Kaitlyn Webb](https://sites.psu.edu/krdowden/). It uses both a small numerical example and pictures (emojis) in place of variables. Note that the emojis are not gratuitous, they have a real purpose in making information stand out visually.
 ![Example and emojis](https://dkifer.github.io/blog/docs/assets/images/emoji.png)
