@@ -48,7 +48,7 @@ In the pre-amble of the LaTex document (usually I put it into a separate file):
 \usepackage{xspace}
 \def\notationcolor{blue}
 \newcommand{\notation}[2]{\newcommand{#1}{{\textcolor
-{% end raw %}
+{% endraw %}
 ```
 Then to define a new piece of notation, add code like this to the preamble (make sure to add comments in the LaTeX so that you don't forget the notation!):
 ```
